@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Rahman"
+    },
+    {
+      "id": 2,
+      "name": "Korim Hossain"
+    },
+    {
+      "id": 3,
+      "name": "Nusrat jahan"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Local Park Reopens After Renovation",
+      "body": "The city park reopened today after a month-long renovation. New benches and lights were installed...",
+      "author_id": 1,
+      "comments": [
+        {
+          "id": 1,
+          "user_id": 2,
+          "text": "Great news! My family will visit this weekend."
+        }
+      ]
+    },
+    {
+      "title": "Nearly 4.96 million people displaced by natural disasters in Bangladesh: IOM",
+      "body": "Nearly 4.96 million are currently internally displaced persons (IDPs) caused by natural disasters in Bangladesh, according to the International Organization for Migration (IOM), which released its first comprehensive nationwide estimate.\n\nThe report highlights how floods, cyclones, river erosion, and other hazards continue to disrupt lives across the country.",
+      "author_id": 1,
+      "comments": [],
+      "id": 2
+    }
+  ]
+}

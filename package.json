@@ -1,0 +1,11 @@
+{
+  "name": "news-portal",
+  "version": "1.0.0",
+  "scripts": {
+    "start:api": "json-server --watch db.json --port 3000",
+    "start:static": "npx http-server -c-1 -p 8080"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
